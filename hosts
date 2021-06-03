@@ -1,5 +1,8 @@
 127.0.0.1 localhost
-127.0.1.1 bacula-ansible
+172.18.68.117 bacula-ansible.l00155877.lyit bacula-ansible
+
+# Adding in the dc1.l00155877.lyit ip to assist with joining domain to authenticate user
+172.18.68.114 dc1.l00155877.lyit
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
